@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: 'Gentium Book Plus';
+    background-color: #9ab5a6;
+    color: #333;
+}
+
+header {
+    background-color: #1e4542;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 4px #283618;
+    z-index: 1000;
+    border-radius: 5px;
+    text-align: center;
+    width: 40%;
+}
+
+.blurred {
+    filter: blur(5px);
+    pointer-events: none;
+}
+  
+main {
+    padding: 20px;
+}
+  
+section {
+    margin-bottom: 20px;
+    background: #ebe5d9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    font-size: 20px;
+}
+  
+h2 {
+    border-bottom: 2px solid #283618;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+  
+form div {
+    margin-bottom: 10px;
+}
+  
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+.isComplete {
+    font-family: 'Gentium Book Plus';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+}
+
+input[type="checkbox"] {
+    font: inherit;
+    color: currentColor;
+    width: 20px;
+    height: 20px;
+    border: 3px solid currentColor;
+    border-radius:2px;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #283618;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #1e4542;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #357b70;
+}
+
+#incompleteBookList, #completeBookList {
+    display: grid;
+    gap: 10px;
+}
+
+[data-testid="bookItem"] {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+[data-testid="bookItem"] h3 {
+    margin: 0 0 10px;
+}
+
+[data-testid="bookItem"] p {
+    margin: 5px 0;
+}
+
+[data-testid="bookItem"] div {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+button[data-testid="bookItemDeleteButton"] {
+    background-color: #c45f61;
+}
+
+button[data-testid="bookItemDeleteButton"]:hover {
+    background-color: #ffb5b4;
+}
+
+button[data-testid="bookItemEditButton"] {
+    background-color: #ed8e00;
+}
+
+button[data-testid="bookItemEditButton"]:hover {
+    background-color: #ffb253;
+}
