@@ -1,0 +1,191 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serife;
+}
+.sambutan-container {
+    text-align: center;
+}
+.school-head-image {
+    width: 30%;
+}
+.konten-title {
+    background-color: #106cfc;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px;
+}
+.card-img-top {
+    max-width: auto;
+    max-height: 30vh;
+    
+}
+.img-fasilitas {
+    object-fit: cover;
+}
+.img-guru {
+    object-fit: cover;
+}
+.card-guru {
+    text-align: center;
+    width: fit-content;
+}
+.contact-form {
+    text-align: center;
+    width: 100%;
+}
+.btn {
+    background-color: #106cfc;
+    color: white;
+    text-align: center;
+}
+.artikel-text h5 {
+    text-align: justify; 
+    font-weight: bold;
+    font-size: 1.25rem; 
+    margin-bottom: 0.5rem; 
+}
+
+.artikel-text p {
+    text-align: justify; 
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333; 
+}
+
+.artikel-item {
+    padding: 15px;
+    margin-bottom: 1rem; 
+    background-color: #fff;
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.artikel-lainnya-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.artikel-lainnya-item .icon-circle {
+    width: 30px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.artikel-link {
+    text-align: justify;
+    color: #000; 
+    font-size: 0.95rem; 
+    text-decoration: none; 
+    line-height: 1.5;
+}
+
+.artikel-link:hover {
+    color: #007bff; 
+    text-decoration: underline; 
+}
+
+.form-label {
+    text-align: left; 
+    display: block;
+    margin-bottom: 5px; 
+}
+
+.header-info .col-md {
+    flex: 1; 
+    padding: 10px; 
+    text-align: center;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px; 
+    margin: 0 8px;
+    background-color: #b0c4de; 
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 30px; 
+    color: #007bff; 
+    font-size: 14px; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+    background-color: #007bff; 
+    color: white;
+}
+
+.social-icon:active {
+    background-color: #000; 
+    color: white; 
+}
+
+.footer-info {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000; 
+    background: rgba(255, 250, 240, 0.8); 
+    padding: 10px 0; 
+}
+
+#goTopBtn {
+    position: fixed; 
+    bottom: 50px; 
+    right: 20px; 
+    background-color: rgba(176, 196, 222, 0.8); 
+    color: #000; 
+    border: none; 
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 20px; 
+    transition: background-color 0.5s; 
+    z-index: 1000; 
+}
+
+#goTopBtn:hover {
+    background-color: rgba(0, 123, 255, 0.8); 
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .header-info .col-md {
+        flex: 0 0 100%; 
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-info .col-md {
+        flex: 0 0 100%; 
+        max-width: 100%;
+    }
+} 
+
+@media (min-width: 1200px) {
+    .header-info .col-md {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 1500px) {
+    .container-fluid {
+        display: block;
+    }
+}
+
+@media (max-width: 560px) {
+    .custom-hide {
+        display: none; 
+    }
+}
