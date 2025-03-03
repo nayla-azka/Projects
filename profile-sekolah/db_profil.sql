@@ -173,26 +173,6 @@ insert  into `tbl_artikel`(`id`,`category`,`judul`,`isi_artikel`,`gambar`,`tgl_b
 (6,'Kegiatan','Eksperimen Sains','<p>Tidak harus ketika belajar, melakukan eksperimen sains juga bisa dilakukan di luar jam pelajaran loh! Zaman sekarang, banyak toko yang menyediakan&nbsp;<em>science kit</em>&nbsp;sederhana dengan berbagai macam percobaan. Eksperimen sains menjadi kegiatan seru di sekolah yang tidak boleh lo lewatkan, ya!</p>','sains.jpg','2024-09-24 11:45:52',1236),
 (7,'Kegiatan','Go Green  ','<p>Lo bisa mencoba menanam pohon atau bibit tanaman lainnya di kebun sekolah yang telah disediakan sekolah. Selain belajar menyayangi alam dan udara sekitar akan lebih segar, merawat tumbuhan bisa menjadi&nbsp;<em>stress relief</em>&nbsp;lo ketika mumet belajar, loh! Tidak harus di kebun sekolah, kegiatan seru yang satu ini bisa lo mulai dengan merawat satu pot tanaman di kelas lo bersama teman-teman. Nantinya, satu kelas akan bertanggung jawab untuk merawat tumbuhan tersebut</p>','gogreen.jpg','2024-09-24 11:46:47',1236);
 
-/*Table structure for table `tbl_chat` */
-
-DROP TABLE IF EXISTS `tbl_chat`;
-
-CREATE TABLE `tbl_chat` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(100) NOT NULL,
-  `message` text NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
-/*Data for the table `tbl_chat` */
-
-insert  into `tbl_chat`(`id`,`name`,`message`,`created_at`) values 
-(31,'nayla','nnnkkn','2025-01-17 11:41:34'),
-(32,'yyy','uuu','2025-01-17 11:41:47'),
-(33,'pp','haiii','2025-01-23 18:09:46'),
-(34,'pp','hfhfdgd','2025-01-23 18:10:03');
-
 /*Table structure for table `tbl_contacts` */
 
 DROP TABLE IF EXISTS `tbl_contacts`;
